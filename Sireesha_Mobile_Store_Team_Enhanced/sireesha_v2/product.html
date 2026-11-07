@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smartphone Details — Sireesha Mobile Store</title>
+  <meta name="description" content="View full technical specifications, official pricing, color variants, and verified customer reviews at Sireesha Mobile Store.">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-brand">
+        <div class="logo-icon-box">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+        </div>
+        <div class="logo-text-group">
+          <span class="logo-title">Sireesha Mobile Store</span>
+          <span class="logo-subtitle">Premium Smartphone Showroom</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="mobiles.html" class="nav-link active">Smartphones</a>
+        <a href="offers.html" class="nav-link">Offers & Deals</a>
+        <a href="about.html" class="nav-link">About Owner</a>
+        <a href="team.html" class="nav-link">Our Team</a>
+        <a href="contact.html" class="nav-link">Contact & Store</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="action-btn open-wishlist-btn" title="Wishlist" aria-label="View Wishlist">
+          <i class="fa-regular fa-heart"></i>
+          <span class="badge-count wishlist-badge-count" style="display: none;">0</span>
+        </button>
+        <button class="action-btn open-cart-btn" title="Shopping Cart" aria-label="View Cart">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="badge-count cart-badge-count" style="display: none;">0</span>
+        </button>
+        <button class="action-btn theme-toggle-btn" title="Toggle Theme" aria-label="Toggle Theme">
+          <i class="fa-solid fa-sun" style="color: #f59e0b;"></i>
+        </button>
+        <button class="mobile-nav-toggle" aria-label="Toggle Navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== BREADCRUMB ==================== -->
+  <div style="background: var(--bg-surface); border-bottom: 1px solid var(--border-subtle); padding: 16px 0;">
+    <div class="container" style="display: flex; gap: 10px; font-size: 0.88rem; color: var(--text-muted);">
+      <a href="index.html">Home</a> <span>/</span>
+      <a href="mobiles.html">Smartphones</a> <span>/</span>
+      <span style="color: var(--primary);" id="breadcrumb-current">Device Overview</span>
+    </div>
+  </div>
+
+  <!-- ==================== DYNAMIC PRODUCT DETAIL CONTAINER ==================== -->
+  <main id="main-content" class="section">
+    <div class="container" id="product-detail-container">
+      <!-- Injected dynamically by js/script.js based on ?id= query param -->
+    </div>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-col">
+          <a href="index.html" class="logo-brand">
+            <div class="logo-icon-box"><i class="fa-solid fa-mobile-screen-button"></i></div>
+            <div class="logo-text-group">
+              <span class="logo-title">Sireesha Mobile Store</span>
+              <span class="logo-subtitle">Founder & Owner: Sireesha Reddy</span>
+            </div>
+          </a>
+          <p class="footer-brand-p">
+            Genuine sealed smartphones, official warranties, and personalized customer care.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mobiles.html">Smartphones</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="about.html">About Owner</a></li>
+            <li><a href="team.html">Our Team</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Top Brands</h4>
+          <ul class="footer-nav-list">
+            <li><a href="mobiles.html?brand=Apple">Apple</a></li>
+            <li><a href="mobiles.html?brand=Samsung">Samsung</a></li>
+            <li><a href="mobiles.html?brand=OnePlus">OnePlus</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Store Location</h4>
+          <ul class="footer-nav-list">
+            <li style="color: var(--text-muted); font-size: 0.9rem;"><i class="fa-solid fa-location-dot" style="color: var(--primary); margin-right: 8px;"></i> Andhra Pradesh, India</li>
+            <li style="color: var(--text-muted); font-size: 0.9rem;"><i class="fa-solid fa-phone" style="color: var(--primary); margin-right: 8px;"></i> +91 98765 43210</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom-bar">
+        <div>© 2026 <strong>Sireesha Mobile Store</strong>. Founder & Owner: <strong>Sireesha Reddy</strong>.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== DRAWERS ==================== -->
+  <div class="drawer-backdrop" id="drawer-backdrop">
+    <div class="drawer-panel" id="cart-drawer-panel" style="display: none;">
+      <div class="drawer-header">
+        <h3 class="drawer-title"><i class="fa-solid fa-bag-shopping" style="color: var(--primary);"></i> Your Cart</h3>
+        <button class="drawer-close-btn">✕</button>
+      </div>
+      <div class="drawer-body" id="cart-drawer-items"></div>
+      <div class="drawer-footer" id="cart-drawer-summary"></div>
+    </div>
+
+    <div class="drawer-panel" id="wishlist-drawer-panel" style="display: none;">
+      <div class="drawer-header">
+        <h3 class="drawer-title"><i class="fa-solid fa-heart" style="color: var(--accent-rose);"></i> Saved Wishlist</h3>
+        <button class="drawer-close-btn">✕</button>
+      </div>
+      <div class="drawer-body" id="wishlist-drawer-items"></div>
+    </div>
+  </div>
+
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

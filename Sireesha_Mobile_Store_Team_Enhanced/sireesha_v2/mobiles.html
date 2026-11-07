@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smartphones Catalog — Sireesha Mobile Store</title>
+  <meta name="description" content="Browse 40+ authentic smartphones from Apple, Samsung, OnePlus, Google Pixel, and more with official warranties and lowest price guarantee at Sireesha Mobile Store.">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-brand">
+        <div class="logo-icon-box">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+        </div>
+        <div class="logo-text-group">
+          <span class="logo-title">Sireesha Mobile Store</span>
+          <span class="logo-subtitle">Premium Smartphone Showroom</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="mobiles.html" class="nav-link active">Smartphones</a>
+        <a href="offers.html" class="nav-link">Offers & Deals</a>
+        <a href="about.html" class="nav-link">About Owner</a>
+        <a href="team.html" class="nav-link">Our Team</a>
+        <a href="contact.html" class="nav-link">Contact & Store</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="action-btn open-wishlist-btn" title="Wishlist" aria-label="View Wishlist">
+          <i class="fa-regular fa-heart"></i>
+          <span class="badge-count wishlist-badge-count" style="display: none;">0</span>
+        </button>
+        <button class="action-btn open-cart-btn" title="Shopping Cart" aria-label="View Cart">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="badge-count cart-badge-count" style="display: none;">0</span>
+        </button>
+        <button class="action-btn theme-toggle-btn" title="Toggle Theme" aria-label="Toggle Theme">
+          <i class="fa-solid fa-sun" style="color: #f59e0b;"></i>
+        </button>
+        <button class="mobile-nav-toggle" aria-label="Toggle Navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== PAGE BANNER ==================== -->
+  <div style="background: var(--bg-surface); border-bottom: 1px solid var(--border-subtle); padding: 40px 0;">
+    <div class="container">
+      <span class="section-badge">Official Showroom Collection</span>
+      <h1 style="font-size: 2.8rem; margin-bottom: 8px;">Explore All Smartphones</h1>
+      <p style="color: var(--text-muted); font-size: 1.05rem;">Choose from over 38 certified flagship and premium smartphones with 100% genuine seal assurance.</p>
+    </div>
+  </div>
+
+  <!-- ==================== CATALOG MAIN CONTENT ==================== -->
+  <main id="main-content" class="section">
+    <div class="container">
+      <div class="catalog-layout">
+        
+        <!-- Filter Sidebar -->
+        <aside class="filter-sidebar">
+          <div class="filter-header">
+            <h3>Filters</h3>
+            <button class="filter-clear-btn" id="catalog-clear-all-btn">Reset All</button>
+          </div>
+
+          <!-- Filter: Brand -->
+          <div class="filter-group">
+            <h4 class="filter-title">Brands</h4>
+            <div class="filter-options-list">
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="brand-filter-cb" value="Apple">
+                <span>Apple</span>
+              </label>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="brand-filter-cb" value="Samsung">
+                <span>Samsung</span>
+              </label>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="brand-filter-cb" value="OnePlus">
+                <span>OnePlus</span>
+              </label>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="brand-filter-cb" value="Google Pixel">
+                <span>Google Pixel</span>
+              </label>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="brand-filter-cb" value="Xiaomi">
+                <span>Xiaomi</span>
+              </label>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="brand-filter-cb" value="Vivo">
+                <span>Vivo</span>
+              </label>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="brand-filter-cb" value="Oppo">
+                <span>Oppo</span>
+              </label>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="brand-filter-cb" value="Realme">
+                <span>Realme</span>
+              </label>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="brand-filter-cb" value="Nothing">
+                <span>Nothing</span>
+              </label>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="brand-filter-cb" value="Motorola">
+                <span>Motorola</span>
+              </label>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="brand-filter-cb" value="iQOO">
+                <span>iQOO</span>
+              </label>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="brand-filter-cb" value="Redmi">
+                <span>Redmi</span>
+              </label>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="brand-filter-cb" value="Honor">
+                <span>Honor</span>
+              </label>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="brand-filter-cb" value="ASUS">
+                <span>ASUS</span>
+              </label>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="brand-filter-cb" value="Tecno">
+                <span>Tecno</span>
+              </label>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="brand-filter-cb" value="Infinix">
+                <span>Infinix</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Filter: Price Range -->
+          <div class="filter-group">
+            <h4 class="filter-title">Price Range</h4>
+            <div class="price-slider-container">
+              <input type="range" id="price-range-slider" min="20000" max="170000" step="5000" value="170000">
+              <div class="price-range-labels">
+                <span>₹20,000</span>
+                <span id="price-slider-value" style="color: var(--primary);">₹1,70,000</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Filter: RAM -->
+          <div class="filter-group">
+            <h4 class="filter-title">RAM Capacity</h4>
+            <div class="filter-options-list">
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="ram-filter-cb" value="8GB">
+                <span>8 GB</span>
+              </label>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="ram-filter-cb" value="12GB">
+                <span>12 GB</span>
+              </label>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="ram-filter-cb" value="16GB">
+                <span>16 GB</span>
+              </label>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="ram-filter-cb" value="24GB">
+                <span>24 GB</span>
+              </label>
+            </div>
+          </div>
+
+          <!-- Filter: Storage -->
+          <div class="filter-group">
+            <h4 class="filter-title">Storage Option</h4>
+            <div class="filter-options-list">
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="storage-filter-cb" value="128GB">
+                <span>128 GB</span>
+              </label>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="storage-filter-cb" value="256GB">
+                <span>256 GB</span>
+              </label>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="storage-filter-cb" value="512GB">
+                <span>512 GB</span>
+              </label>
+              <label class="filter-checkbox-label">
+                <input type="checkbox" class="storage-filter-cb" value="1TB">
+                <span>1 TB</span>
+              </label>
+            </div>
+          </div>
+        </aside>
+
+        <!-- Product Grid Area -->
+        <section>
+          <!-- Toolbar -->
+          <div class="catalog-toolbar">
+            <div class="catalog-search-box">
+              <i class="fa-solid fa-magnifying-glass catalog-search-icon"></i>
+              <input type="text" id="catalog-search-input" placeholder="Search by model or feature...">
+            </div>
+
+            <div style="font-size: 0.92rem; font-weight: 600; color: var(--text-muted);" id="catalog-results-count">
+              Showing 38+ smartphones
+            </div>
+
+            <div class="catalog-sort-group">
+              <label for="catalog-sort-select" style="font-size: 0.9rem; font-weight: 600;">Sort By:</label>
+              <select id="catalog-sort-select" class="sort-select">
+                <option value="popular">Popularity & Featured</option>
+                <option value="price-low">Price: Low to High</option>
+                <option value="price-high">Price: High to Low</option>
+                <option value="rating">Highest Rated (★)</option>
+                <option value="discount">Biggest Discount (%)</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Active Filter Chips -->
+          <div class="active-filters-chips" id="active-filters-chips"></div>
+
+          <!-- Dynamic Products Grid -->
+          <div class="products-grid" id="catalog-products-grid">
+            <!-- Rendered by js/script.js -->
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-col">
+          <a href="index.html" class="logo-brand">
+            <div class="logo-icon-box">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+            <div class="logo-text-group">
+              <span class="logo-title">Sireesha Mobile Store</span>
+              <span class="logo-subtitle">Founder & Owner: Sireesha Reddy</span>
+            </div>
+          </a>
+          <p class="footer-brand-p">
+            Delivering authentic technology retail experiences, official warranties, and honest guidance from our flagship showroom.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mobiles.html">Smartphones</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="about.html">About Owner</a></li>
+            <li><a href="team.html">Our Team</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Brands</h4>
+          <ul class="footer-nav-list">
+            <li><a href="mobiles.html?brand=Apple">Apple</a></li>
+            <li><a href="mobiles.html?brand=Samsung">Samsung</a></li>
+            <li><a href="mobiles.html?brand=OnePlus">OnePlus</a></li>
+            <li><a href="mobiles.html?brand=Google Pixel">Google Pixel</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Store Location</h4>
+          <ul class="footer-nav-list">
+            <li style="color: var(--text-muted); font-size: 0.9rem;"><i class="fa-solid fa-location-dot" style="color: var(--primary); margin-right: 8px;"></i> Kottapeta, Andhra Pradesh</li>
+            <li style="color: var(--text-muted); font-size: 0.9rem;"><i class="fa-solid fa-phone" style="color: var(--primary); margin-right: 8px;"></i> +91 98765 43210</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom-bar">
+        <div>© 2026 <strong>Sireesha Mobile Store</strong>. Founder & Owner: <strong>Sireesha Reddy</strong>.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== DRAWERS ==================== -->
+  <div class="drawer-backdrop" id="drawer-backdrop">
+    <div class="drawer-panel" id="cart-drawer-panel" style="display: none;">
+      <div class="drawer-header">
+        <h3 class="drawer-title"><i class="fa-solid fa-bag-shopping" style="color: var(--primary);"></i> Your Cart</h3>
+        <button class="drawer-close-btn">✕</button>
+      </div>
+      <div class="drawer-body" id="cart-drawer-items"></div>
+      <div class="drawer-footer" id="cart-drawer-summary"></div>
+    </div>
+
+    <div class="drawer-panel" id="wishlist-drawer-panel" style="display: none;">
+      <div class="drawer-header">
+        <h3 class="drawer-title"><i class="fa-solid fa-heart" style="color: var(--accent-rose);"></i> Saved Wishlist</h3>
+        <button class="drawer-close-btn">✕</button>
+      </div>
+      <div class="drawer-body" id="wishlist-drawer-items"></div>
+    </div>
+  </div>
+
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>

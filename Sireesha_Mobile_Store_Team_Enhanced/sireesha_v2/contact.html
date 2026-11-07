@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact & Showroom Location — Sireesha Mobile Store</title>
+  <meta name="description" content="Get in touch with Sireesha Mobile Store, book a VIP showroom visit, inquire about smartphone availability, or get directions to our flagship showroom.">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <!-- ==================== HEADER ==================== -->
+  <header class="site-header">
+    <div class="container header-container">
+      <a href="index.html" class="logo-brand">
+        <div class="logo-icon-box">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+        </div>
+        <div class="logo-text-group">
+          <span class="logo-title">Sireesha Mobile Store</span>
+          <span class="logo-subtitle">Premium Smartphone Showroom</span>
+        </div>
+      </a>
+
+      <nav class="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="mobiles.html" class="nav-link">Smartphones</a>
+        <a href="offers.html" class="nav-link">Offers & Deals</a>
+        <a href="about.html" class="nav-link">About Owner</a>
+        <a href="team.html" class="nav-link">Our Team</a>
+        <a href="contact.html" class="nav-link active">Contact & Store</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="action-btn open-wishlist-btn" title="Wishlist" aria-label="View Wishlist">
+          <i class="fa-regular fa-heart"></i>
+          <span class="badge-count wishlist-badge-count" style="display: none;">0</span>
+        </button>
+        <button class="action-btn open-cart-btn" title="Shopping Cart" aria-label="View Cart">
+          <i class="fa-solid fa-bag-shopping"></i>
+          <span class="badge-count cart-badge-count" style="display: none;">0</span>
+        </button>
+        <button class="action-btn theme-toggle-btn" title="Toggle Theme" aria-label="Toggle Theme">
+          <i class="fa-solid fa-sun" style="color: #f59e0b;"></i>
+        </button>
+        <button class="mobile-nav-toggle" aria-label="Toggle Navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== PAGE BANNER ==================== -->
+  <div style="background: var(--bg-surface); border-bottom: 1px solid var(--border-subtle); padding: 48px 0;">
+    <div class="container text-center" style="text-align: center; max-width: 760px; margin: 0 auto;">
+      <span class="section-badge">Get in Touch</span>
+      <h1 style="font-size: 3.2rem; margin-bottom: 12px;">Contact & Showroom Visit</h1>
+      <p style="color: var(--text-muted); font-size: 1.1rem;">
+        Have a question about a smartphone model, bank cashback, or wish to schedule a hands-on demo at our showroom? Our team is here to assist you.
+      </p>
+    </div>
+  </div>
+
+  <!-- ==================== MAIN CONTACT & LOCATION SECTION ==================== -->
+  <main id="main-content" class="section">
+    <div class="container">
+      <div class="contact-layout">
+        
+        <!-- Contact Form Card -->
+        <div class="contact-form-card">
+          <h2 style="font-size: 1.8rem; margin-bottom: 8px;">Send Showroom Inquiry</h2>
+          <p style="color: var(--text-muted); font-size: 0.95rem; margin-bottom: 24px;">Fill out the form below and our concierge team will respond within 30 minutes.</p>
+
+          <form id="contact-form" novalidate>
+            <div class="form-group">
+              <label class="form-label" for="contact-name">Full Name *</label>
+              <input type="text" id="contact-name" class="form-control" placeholder="e.g. Ramesh Reddy" required>
+              <span class="form-error-msg">Please enter your name</span>
+            </div>
+
+            <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px;">
+              <div class="form-group">
+                <label class="form-label" for="contact-email">Email Address *</label>
+                <input type="email" id="contact-email" class="form-control" placeholder="ramesh@example.com" required>
+                <span class="form-error-msg">Valid email required</span>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contact-phone">Phone Number *</label>
+                <input type="tel" id="contact-phone" class="form-control" placeholder="10-digit mobile number" required>
+                <span class="form-error-msg">Valid phone required</span>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-subject">Inquiry Purpose</label>
+              <select id="contact-subject" class="form-control">
+                <option>New Smartphone Purchase & Price Quote</option>
+                <option>Smart Exchange / Trade-In Valuation</option>
+                <option>Bank Cashbacks & No-Cost EMI Options</option>
+                <option>Book VIP Showroom Hands-On Demo</option>
+                <option>Warranty & After-Sales Support</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-message">Your Message *</label>
+              <textarea id="contact-message" class="form-control" placeholder="Mention the smartphone model you are interested in..." required></textarea>
+              <span class="form-error-msg">Please enter a message</span>
+            </div>
+
+            <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">
+              <i class="fa-solid fa-paper-plane"></i> Submit Inquiry
+            </button>
+          </form>
+        </div>
+
+        <!-- Showroom Information & Quick Channels -->
+        <div style="display: flex; flex-direction: column; gap: 24px;">
+          
+          <div style="background: var(--bg-surface); border: 1px solid var(--border-subtle); border-radius: var(--radius-xl); padding: 36px; box-shadow: var(--shadow-md);">
+            <h3 style="font-size: 1.4rem; margin-bottom: 20px;">Showroom Concierge</h3>
+            
+            <div class="location-details-list" style="margin: 0 0 24px 0;">
+              <div class="location-detail-item">
+                <div class="loc-icon"><i class="fa-solid fa-store"></i></div>
+                <div class="loc-text">
+                  <strong>Sireesha Mobile Store</strong>
+                  <span>Kottapeta, Andhra Pradesh, India</span>
+                </div>
+              </div>
+
+              <div class="location-detail-item">
+                <div class="loc-icon"><i class="fa-solid fa-phone"></i></div>
+                <div class="loc-text">
+                  <strong>Direct Showroom Line</strong>
+                  <span>+91 98765 43210</span>
+                </div>
+              </div>
+
+              <div class="location-detail-item">
+                <div class="loc-icon"><i class="fa-solid fa-clock"></i></div>
+                <div class="loc-text">
+                  <strong>Opening Hours</strong>
+                  <span>Monday – Sunday: 9:30 AM – 9:00 PM</span>
+                </div>
+              </div>
+
+              <div class="location-detail-item">
+                <div class="loc-icon"><i class="fa-solid fa-envelope"></i></div>
+                <div class="loc-text">
+                  <strong>Store Email</strong>
+                  <span><a href="mailto:hello@sireeshamobilestore.in">hello@sireeshamobilestore.in</a></span>
+                </div>
+              </div>
+            </div>
+
+            <div style="display: flex; gap: 12px; flex-wrap: wrap;">
+              <a href="tel:+919876543210" class="btn btn-primary btn-sm" style="flex-grow: 1;">
+                <i class="fa-solid fa-phone"></i> Call Now
+              </a>
+              <a href="https://wa.me/919876543210" target="_blank" class="btn btn-gold btn-sm" style="flex-grow: 1;">
+                <i class="fa-brands fa-whatsapp"></i> WhatsApp Store
+              </a>
+            </div>
+          </div>
+
+          <!-- Premium Google Maps Area -->
+          <div class="contact-map-card">
+            <div class="contact-map-heading">
+              <div><span class="section-badge">Google Maps</span><h3>Find Sireesha Mobile Store</h3></div>
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <div class="contact-map-frame">
+              <iframe title="Google Maps — Sireesha Mobile Store Kottapeta" src="https://www.google.com/maps?q=Sireesha%20Mobile%20Store%20Kottapeta%20Andhra%20Pradesh%20India&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <a href="https://www.google.com/maps/search/?api=1&query=Sireesha+Mobile+Store+Kottapeta+Andhra+Pradesh+India" target="_blank" rel="noopener" class="map-floating-button"><i class="fa-solid fa-diamond-turn-right"></i> Get Directions</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </main>
+
+  <!-- ==================== FREQUENTLY ASKED QUESTIONS (FAQ) ==================== -->
+  <section class="section" style="background: var(--bg-surface-elevated);">
+    <div class="container" style="max-width: 860px;">
+      <div class="section-header">
+        <span class="section-badge">Help & Support</span>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <p class="section-subtitle">Everything you need to know about purchasing, warranty, and store policies.</p>
+      </div>
+
+      <div class="faq-accordion">
+        
+        <div class="faq-item active">
+          <button class="faq-question">
+            <span>Are all smartphones 100% genuine with official brand warranty?</span>
+            <i class="fa-solid fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            Yes, absolutely. Every smartphone at Sireesha Mobile Store is directly sourced from authorized brand distributors. All devices come in factory-sealed packaging with full GST tax invoices and 1-year official brand warranty honored at all authorized service centers across India.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Do you provide free data transfer from my old phone?</span>
+            <i class="fa-solid fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            Yes! Our showroom technical specialists assist you with complete 100% data migration (contacts, WhatsApp chats, photos, apps, and accounts) free of charge when you purchase your smartphone from us.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How does the Smart Exchange Program work?</span>
+            <i class="fa-solid fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            Bring your existing smartphone in any working condition to our showroom. Our diagnostic specialist will run a 5-minute evaluation and offer you top market value plus an exclusive founder exchange bonus up to ₹5,000 deducted directly from your new phone purchase.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What payment methods and EMI options are accepted?</span>
+            <i class="fa-solid fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            We accept all major Credit Cards, Debit Cards, UPI, Net Banking, and offer 0% interest No-Cost EMI through HDFC, ICICI, SBI, Axis, Bajaj Finserv, and ZestMoney with flexible tenures up to 24 months.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>What are the showroom opening hours?</span>
+            <i class="fa-solid fa-chevron-down faq-icon"></i>
+          </button>
+          <div class="faq-answer">
+            Our flagship showroom is open 7 days a week, Monday through Sunday, from 9:30 AM to 10:00 PM. Walk-ins are always warmly welcomed!
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-top-grid">
+        <div class="footer-brand-col">
+          <a href="index.html" class="logo-brand">
+            <div class="logo-icon-box"><i class="fa-solid fa-mobile-screen-button"></i></div>
+            <div class="logo-text-group">
+              <span class="logo-title">Sireesha Mobile Store</span>
+              <span class="logo-subtitle">Founder & Owner: Sireesha Reddy</span>
+            </div>
+          </a>
+          <p class="footer-brand-p">
+            Delivering authentic technology, transparent pricing, and 5-star customer hospitality.
+          </p>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Quick Links</h4>
+          <ul class="footer-nav-list">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="mobiles.html">Smartphones</a></li>
+            <li><a href="offers.html">Offers</a></li>
+            <li><a href="about.html">About Owner</a></li>
+            <li><a href="team.html">Our Team</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Top Brands</h4>
+          <ul class="footer-nav-list">
+            <li><a href="mobiles.html?brand=Apple">Apple</a></li>
+            <li><a href="mobiles.html?brand=Samsung">Samsung</a></li>
+            <li><a href="mobiles.html?brand=OnePlus">OnePlus</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-col-title">Store Location</h4>
+          <ul class="footer-nav-list">
+            <li style="color: var(--text-muted); font-size: 0.9rem;"><i class="fa-solid fa-location-dot" style="color: var(--primary); margin-right: 8px;"></i> Andhra Pradesh, India</li>
+            <li style="color: var(--text-muted); font-size: 0.9rem;"><i class="fa-solid fa-phone" style="color: var(--primary); margin-right: 8px;"></i> +91 98765 43210</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom-bar">
+        <div>© 2026 <strong>Sireesha Mobile Store</strong>. Founder & Owner: <strong>Sireesha Reddy</strong>.</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== DRAWERS ==================== -->
+  <div class="drawer-backdrop" id="drawer-backdrop">
+    <div class="drawer-panel" id="cart-drawer-panel" style="display: none;">
+      <div class="drawer-header">
+        <h3 class="drawer-title"><i class="fa-solid fa-bag-shopping" style="color: var(--primary);"></i> Your Cart</h3>
+        <button class="drawer-close-btn">✕</button>
+      </div>
+      <div class="drawer-body" id="cart-drawer-items"></div>
+      <div class="drawer-footer" id="cart-drawer-summary"></div>
+    </div>
+
+    <div class="drawer-panel" id="wishlist-drawer-panel" style="display: none;">
+      <div class="drawer-header">
+        <h3 class="drawer-title"><i class="fa-solid fa-heart" style="color: var(--accent-rose);"></i> Saved Wishlist</h3>
+        <button class="drawer-close-btn">✕</button>
+      </div>
+      <div class="drawer-body" id="wishlist-drawer-items"></div>
+    </div>
+  </div>
+
+  <script src="js/products.js"></script>
+  <script src="js/cart.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
